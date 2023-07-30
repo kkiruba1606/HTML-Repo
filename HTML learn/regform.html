@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> login</title>
+    <style>
+        #adress{
+            height: 80px;
+        }
+        .form{
+            background-color:purple;
+            color: white;
+        }
+       
+    </style>
+
+</head>
+<body>
+    <div class="form">
+        <fieldset>
+        <label for="User name"> FIRST NAME</label>
+        <input type="text"  placeholder="enter your name">(max 30 charecters a-z and A-Z)
+        <br>
+        <br>
+        <label for="Last name"> LAST NAME</label>
+        <input type="text"  placeholder="enter your last name">(max 30 charecters (a-z))
+        <br>
+        <br>
+        <label for="Dob">DATE OF BIRTH </label>
+        <input type="datetime" name="date" id="Dob">
+        <br>
+        <br>
+        <label for="mail">EMAIL</label>
+        <input type="email" name="email" id="mail" placeholder="eg.hdhdh@gmail.com">
+        <br>
+        <br>
+        <label for="MOBILE NUMBER"> MOBILE NUMBER</label>
+        <input type="text" name="NUMBER" >(10 digit number)
+        <br>
+        <br>
+        <label for="gender">GENDER</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br>
+        <br>
+    <label for="address">ADDRESS</label>
+    <input type="text" name="address" id="adress"> 
+        <br>
+        <br>
+        <label for="CITY">CITY</label>
+        <input type="text" name="city" > 
+        <br>
+        <br>
+    <label for="PIN">PIN CODE</label>
+    <input type="number" name="number"> (6 digit number)
+        <br>
+        <br>
+    <label for="state">STATE</label>
+   <input type="text" name="state"> (max 30 charecters (a-z))
+            <br>
+            <br>
+            <label for="country">COUNTRY</label>
+            <input type="text" name="country">
+            <br>
+            <br>
+            <label for="hobbies">HOBBIES</label>
+            <input type="checkbox" name="drawing" id="Dravwing">
+            <label for="Dravwing">drawing</label>
+            <input type="checkbox" name="singing" id="singing">
+            <label for="singing">singing</label>
+            <input type="checkbox" name="other" id="others">
+            <label for="others">others</label><br><br>
+            <label for="qualification">QUALIFICATION</label> 
+            <br>
+            <table>
+                <tr>
+                    <th>s.no</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>percentage</th>
+                    <th>Year of passing</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Class X11</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+            <br>
+               <label for="radio"> COURSESS APPLIED FOR</label>
+               <input type="radio"  name="bca" id="BCA">
+               <label for="BCA">BCA</label>
+               <input type="radio"  name="BCOM" id="BCOM">
+               <label for="BCOM">B.COM</label>
+               <input type="radio"  name="BSC" id="BSC">
+               <label for="BSC">B.SC</label>
+            <br>
+            <br>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+        <br>
+        <br>
+    </fieldset>
+    </div>
+</body>
+</html>

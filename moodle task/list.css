@@ -1,0 +1,13 @@
+/* div{
+    color: rgb(255, 0, 0);
+    font-family: 'Lumanosimo', cursive;
+    /* background-image: url("https://images.pexels.com/photos/17494608/pexels-photo-17494608/free-photo-of-police-station.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"); */
+    /* background-size:contain;
+    background-repeat: no-repeat;
+    background-position: 0%; */
+    /* background-image:repeating-linear-gradient(white,purple,yellow); */
+    background-image: radial-gradient(green,skyblue,grey);
+     background-image: conic-gradient(hsl(120, 100%, 25%),skyblue 35deg,gray deg);
+    background-size: cover;
+    
+} */
